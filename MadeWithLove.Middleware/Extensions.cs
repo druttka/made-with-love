@@ -4,9 +4,9 @@
 
     public static class Extensions
     {
-        public static void MakeWithLove(this IAppBuilder app)
+        public static void MakeWithLove(this IAppBuilder app, string customIngredient)
         {
-            app.Use<MadeWithLoveMiddleware>();
+            app.Use<MadeWithLoveMiddleware>(customIngredient);
         }
     }
 }
