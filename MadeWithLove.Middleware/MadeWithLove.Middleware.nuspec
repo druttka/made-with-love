@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MadeWithLove.Middleware</id>
+    <version>0.1.0</version>
+    <title>Made With Love Middleware</title>
+    <authors>David Ruttka</authors>
+    <owners>David Ruttka</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/druttka/made-with-love</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sets the x-made-with header to the value of &lt;3</description>
+    <releaseNotes>Initial package.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>owin middleware made with love custom headers</tags>
+  </metadata>
+</package>
