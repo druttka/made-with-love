@@ -38,6 +38,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MadeWithLove.Middleware, Version=0.1.0.23896, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MadeWithLove.Middleware\packages\MadeWithLove.Middleware.0.1.0\lib\net45\MadeWithLove.Middleware.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -81,12 +85,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MadeWithLove.Middleware\MadeWithLove.Middleware.csproj">
-      <Project>{de950d9f-9b05-4f3b-8707-6a9de147f1ae}</Project>
-      <Name>MadeWithLove.Middleware</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
