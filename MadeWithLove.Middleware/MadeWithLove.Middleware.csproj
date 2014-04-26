@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Extensions.cs" />
     <Compile Include="MadeWithLoveMiddleware.cs" />
+    <Compile Include="MadeWithLoveOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
