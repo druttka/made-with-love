@@ -2,16 +2,16 @@
 <package >
   <metadata>
     <id>MadeWithLove.Middleware</id>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
     <title>Made With Love Middleware</title>
     <authors>David Ruttka</authors>
     <owners>David Ruttka</owners>
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/druttka/made-with-love</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Sets the x-made-with header to the value of &lt;3</description>
-    <releaseNotes>Initial package.</releaseNotes>
+    <description>$description$</description>
+    <releaseNotes>Adds custom ingredient option.</releaseNotes>
     <copyright>Copyright 2014</copyright>
-    <tags>owin middleware made with love custom headers</tags>
+    <tags>owin middleware made with love custom headers x-made-with</tags>
   </metadata>
 </package>
