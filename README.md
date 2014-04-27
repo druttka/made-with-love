@@ -26,8 +26,19 @@ To set a custom ingredient instead of the default "<3", just pass in `MadeWithLo
 
     config.MessageHandlers.Add(new MadeWithLoveOptions { Ingredient = "love" });
 
+### Express (Node)
+
+    var express = require('express');
+    var madeWithLove = require('made-with-love');
+    var app = express();
+
+    app.use(madeWithLove.middleware());
+ 
+To set a custom ingredient instead of the default "<3", just pass in an options object with an `ingredient`. 
+
+    app.use(madeWithLove.middleware({ ingredient: "love" }));
+
 ### Coming soon
 
-- Express middleware
 - Rack middleware
 - ?!
