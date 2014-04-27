@@ -10,10 +10,13 @@ Because all the designers are putting it in their footers.
 
 Those of us working on the HTTP APIs that power the web have been left with no way to make sure everyone knows that **we care too**.
 
-### Usage
+### Owin Middleware Usage
 
     app.MakeWithLove();
-### TODO
 
+### Coming soon
 
-- Configuration to choose between `<3`, `love`, or `hate, actually`.
+- Web API DelegatingHandler
+- Express middleware
+- Rack middleware
+- ?!
