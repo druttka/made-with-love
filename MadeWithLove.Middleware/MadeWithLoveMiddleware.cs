@@ -5,15 +5,17 @@
 
     public class MadeWithLoveMiddleware : OwinMiddleware
     {
-        public MadeWithLoveMiddleware(OwinMiddleware next)
+        private readonly MadeWithLoveOptions options;
+
+        public MadeWithLoveMiddleware(OwinMiddleware next, MadeWithLoveOptions options = null)
             : base(next)
         {
-
+            this.options = options ?? new MadeWithLoveOptions();
         }
 
         public override async Task Invoke(IOwinContext context)
         {
-            context.Response.Headers.Set("x-made-with", "<3");
+            context.Response.Headers.Set("x-made-with", options.Ingredient);
             await Next.Invoke(context);
         }
     }
