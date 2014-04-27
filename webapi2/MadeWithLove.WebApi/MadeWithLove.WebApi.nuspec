@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MadeWithLove.WebApi</id>
+    <version>0.2.1</version>
+    <title>Made With Love (Web API)</title>
+    <authors>David Ruttka</authors>
+    <owners>David Ruttka</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/druttka/made-with-love</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial package, with feature parity of MadeWithLove.Middleware.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>webapi aspnet handlers headers x-made-with love</tags>
+  </metadata>
+</package>
