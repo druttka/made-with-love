@@ -14,9 +14,20 @@ Those of us working on the HTTP APIs that power the web have been left with no w
 
     app.MakeWithLove();
 
+To set a custom ingredient instead of the default "<3", just pass in `MadeWithLoveOptions`
+
+    app.MakeWithLove(new MadeWithLoveOptions { Ingredient = "love" });
+
+### Web API 2 Usage
+
+    config.MessageHandlers.Add(new MadeWithLoveHandler());
+
+To set a custom ingredient instead of the default "<3", just pass in `MadeWithLoveOptions`
+
+    config.MessageHandlers.Add(new MadeWithLoveOptions { Ingredient = "love" });
+
 ### Coming soon
 
-- Web API DelegatingHandler
 - Express middleware
 - Rack middleware
 - ?!
