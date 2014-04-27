@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MadeWithLove.Middleware")]
-[assembly: AssemblyDescription("Owin Middleware to set an x-made-with header to <3")]
+[assembly: AssemblyDescription("Owin Middleware to set an x-made-with header to &lt;3")]
 [assembly: AssemblyProduct("MadeWithLove.Middleware")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 
