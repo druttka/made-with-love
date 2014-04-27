@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadeWithLove.Middleware", "MadeWithLove.Middleware.csproj", "{DE950D9F-9B05-4F3B-8707-6A9DE147F1AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadeWithLove.Middleware", "MadeWithLove.Middleware\MadeWithLove.Middleware.csproj", "{DE950D9F-9B05-4F3B-8707-6A9DE147F1AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadeWithLove.TestSite", "..\MadeWithLove.TestSite\MadeWithLove.TestSite.csproj", "{5EDB6A13-6804-4DAB-878E-3F6C3492640F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadeWithLove.TestSite", "MadeWithLove.TestSite\MadeWithLove.TestSite.csproj", "{5EDB6A13-6804-4DAB-878E-3F6C3492640F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
